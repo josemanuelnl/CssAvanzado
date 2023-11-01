@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__profile {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+.sidebar__profile__info {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+.sidebar__profile__info p {
+  font-size: 10px;
+}
+.sidebar__profile__info img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.sidebar__profile__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar__profile__icons i {
+  margin-right: 15px;
+}
+.sidebar__newchat {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar__newchat__button {
+  margin: 10px;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  border: none;
+  background-color: #A491D2;
+}
+.sidebar__chatlist {
+  list-style-type: none;
+}
+.sidebar__chatlist__chat {
+  margin-bottom: 10px;
+}
+.sidebar__chatlist__chat__info {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+.sidebar__chatlist__chat__info img {
+  width: 33px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.main {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
